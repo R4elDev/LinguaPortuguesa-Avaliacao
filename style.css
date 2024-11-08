@@ -19,3 +19,62 @@ html,body {
 body{
     background-color: #ECE9E4;
 }
+
+header {
+    position: relative;
+    width: 100vw;
+    background-color: #0091F7;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 40px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a {
+    font-size: 25px;
+    color: #ECE9E4;
+    padding: 8px;
+}
+
+.logo {
+    height: 90px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ECE9E4;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.containerLogo{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECE9E4;
+    border-radius: 30px;
+    width: 250px;
+    top: 35px;
+    left: 23px;
+}
+
+.logo img {
+    height: 70px;
+}
+
+.textosLogo{
+    font-size: 14.5px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+
+
