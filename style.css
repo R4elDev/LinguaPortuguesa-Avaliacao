@@ -16,65 +16,40 @@ html,body {
     scroll-behavior: smooth;
 }
 
-body{
-    background-color: #ECE9E4;
+body {
+    background-color: #FFFFFF;
 }
 
-header {
-    position: relative;
+header{
+    position: fixed;
     width: 100vw;
-    background-color: #0091F7;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 40px;
+    background-color: transparent;
+    padding: 32px;
+
 }
 
-header nav ul {
+#navegacao{
+    width: 75%;
+}
+
+#navegacao nav ul{
+    font-size: 26px;
     display: flex;
     justify-content: space-between;
 }
 
-header nav a {
-    font-size: 25px;
-    color: #ECE9E4;
-    padding: 8px;
-}
-
-.logo {
-    height: 90px;
-    width: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ECE9E4;
-    padding: 20px;
-    border-radius: 30px;
-}
-
-.containerLogo{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ECE9E4;
-    border-radius: 30px;
-    width: 250px;
-    top: 35px;
-    left: 23px;
-}
-
-.logo img {
-    height: 70px;
-}
-
-.textosLogo{
-    font-size: 14.5px;
+#navegacao nav a {
     color: black;
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
 }
 
+#containerNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
 
-
+.grupo {
+    height: 100vh;
+    border: 1px solid black;
+}
