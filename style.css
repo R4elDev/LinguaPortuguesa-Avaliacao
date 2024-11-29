@@ -23,13 +23,14 @@ body {
 header{
     position: fixed;
     width: 100vw;
+    /* margin-top: 200px; */
     background-color: transparent;
     padding: 32px;
-
 }
 
 #navegacao{
     width: 75%;
+    font-family: 'Kodchasan', sans-serif;
 }
 
 #navegacao nav ul{
@@ -40,6 +41,7 @@ header{
 
 #navegacao nav a {
     color: black;
+    color: #005CAA;
 }
 
 #containerNav {
@@ -52,4 +54,125 @@ header{
 .grupo {
     height: 100vh;
     border: 1px solid black;
+}
+
+#grupao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+#containerTexto {
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    width: 50%;
+   
+    height: 100%; 
+    margin-left: 32px;
+    font-family: 'Kodchasan', sans-serif;
+    
+}
+#containerTexto p{
+    font-size: 30px;
+    height: 60%;   
+}
+#containerTexto h2{
+    margin-top: 10px;
+    font-size: 40px;
+    
+}
+
+#subtexto {
+    margin-top: 20px;
+    width: 690px;
+}
+
+#titulo1 {
+    width: 500px;
+}
+
+
+#containerImg {
+    height: 50%;
+    width: 40%;
+    margin-left: 4%;
+
+}
+
+#containerImg img{
+    height: 100%;
+    width: 100%;
+}
+
+#containerTexto #social {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 70%;
+}
+
+#containerTexto #social div{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #005CAA;
+}
+
+#grupao2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+#containerTexto2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%; 
+    margin-left: 32px;
+    font-family: 'Kodchasan', sans-serif;
+    
+}
+
+#containerTexto2 p{
+    font-size: 30px;
+    height: 60%;   
+}
+
+#containerTexto h2{
+    margin-top: 10px;
+    font-size: 40px; 
+}
+
+#subtitulo h2{
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+
+#subtexto2 {
+    margin-top: 20px;
+    width: 690px;
+}
+
+#titulo2 {
+    width: 500px;
+}
+
+#containerImg2 {
+    height: 50%;
+    width: 40%;
+    margin-left: 4%;
+
+}
+
+#containerImg2 img{
+    height: 100%;
+    width: 100%;
 }
