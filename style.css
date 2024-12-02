@@ -23,10 +23,47 @@ body {
 header{
     position: fixed;
     width: 100vw;
-    /* margin-top: 200px; */
     background-color: transparent;
-    padding: 32px;
+    padding: 32px 4%;
 }
+
+#logotipo{
+    height: 65px;
+    width: 65px;
+    background-image: url('./img/logotipo.png');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+header.rolagem {
+    position: fixed;
+    width: 100vw;
+    background-color: #005CAA;
+    padding: 32px 4%;
+    color: white;
+}
+
+header.rolagem #navegacao a{
+    color: white;
+     transition: .5s;
+}
+
+header.rolagem #logotipo {
+    height: 65px;
+    width: 65px;
+    background-image: url('./img/flor-de-lis_ao_mudar.png');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: .5s;
+}
+
+
+
+
 
 #navegacao{
     width: 75%;
@@ -40,7 +77,6 @@ header{
 }
 
 #navegacao nav a {
-    color: black;
     color: #005CAA;
 }
 
@@ -178,4 +214,8 @@ header{
     width: 100%;
     box-shadow: 5px #005CAA;
     border-radius: 20px;
+}
+
+#pilares {
+    background-color: #005CAA;
 }
