@@ -14,6 +14,7 @@ ul,ol,li {
 
 html,body {
     scroll-behavior: smooth;
+    font-family: 'Kodchasan', sans-serif;
 }
 
 body {
@@ -23,7 +24,7 @@ body {
 header{
     position: fixed;
     width: 100vw;
-    background-color: transparent;
+    background-color: white;
     padding: 32px 4%;
 }
 
@@ -61,13 +62,8 @@ header.rolagem #logotipo {
     transition: .5s;
 }
 
-
-
-
-
 #navegacao{
     width: 75%;
-    font-family: 'Kodchasan', sans-serif;
 }
 
 #navegacao nav ul{
@@ -108,7 +104,6 @@ header.rolagem #logotipo {
    
     height: 100%; 
     margin-left: 32px;
-    font-family: 'Kodchasan', sans-serif;
     
 }
 #containerTexto p{
@@ -172,7 +167,7 @@ header.rolagem #logotipo {
     width: 50%;
     height: 100%; 
     margin-left: 32px;
-    font-family: 'Kodchasan', sans-serif;
+    
     
 }
 
@@ -217,5 +212,117 @@ header.rolagem #logotipo {
 }
 
 #pilares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #005CAA;
 }
+
+#containerGeral {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+#containerPilaresTexto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tituloPilares {
+    color: white;
+}
+
+#tituloPilares h1 {
+    font-size: 77px;
+}
+
+
+#pPilares  {
+    border: 1px solid wheat;
+    margin-top: 30px;
+    width: 947px;
+    text-align: center;
+    color: white;
+}
+
+#pPilares p {
+    font-size: 24px;
+}
+
+#containerPilares{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 77px;
+}
+
+.pilaresFotos {
+    height: 499px;
+    width: 376px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#fotoPilar1 {
+    width: 339px;
+    height: 270px;
+    background-image: url('./img/livros.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+#fotoPilar2 {
+    width: 339px;
+    height: 270px;
+    background-image: url('./img/arvore.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+}
+
+#fotoPilar3 {
+    width: 339px;
+    height: 260px;
+    background-image: url('./img/caderno.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+}
+
+.subPilares {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tituloFoto {
+    margin-top: 15px ;
+}
+
+.tituloFoto h1{
+    font-size: 48px;
+}
+
+.subFoto {
+    text-align: center;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.subFoto p {
+    color: black;
+    font-size: 20px;
+}
+
