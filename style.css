@@ -207,7 +207,7 @@ header.rolagem #logotipo {
 #conteinerImg2 img{
     height: 100%;
     width: 100%;
-    box-shadow: 5px #005CAA;
+    
     border-radius: 20px;
 }
 
@@ -221,8 +221,6 @@ header.rolagem #logotipo {
 #containerGeral {
     display: flex;
     flex-direction: column;
-    
-    
 }
 
 #containerPilaresTexto {
@@ -325,4 +323,116 @@ header.rolagem #logotipo {
     color: black;
     font-size: 20px;
 }
+
+#importancia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contKid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+
+
+#containerImpFoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 567px;
+    height: 616px;
+    background-image: url('./img/criancaCompleto.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#containerImpor {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+#textosImp{
+    display: flex;
+    flex-direction: column;
+    width: 548px;
+    height: 117px;
+    font-size: 30px;
+}
+
+#gradiente {
+    background-image: linear-gradient(to right,#005CAA,#002544);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#contTopicos {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 35px;
+}
+
+.topicos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.textosTop{
+    margin-left: 15px;
+    width: 100%;
+}
+
+#imagemTop1 {
+    width: 95px;
+    height: 78px;
+    background-image: url('./img/comunicacao.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#imagemTop2 {
+    width: 95px;
+    height: 78px;
+    background-image: url('./img/influencia.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#imagemTop3 {
+    width: 95px;
+    height: 78px;
+    background-image: url('./img/trabalho.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#imagemTop4 {
+    width: 95px;
+    height: 78px;
+    background-image: url('./img/cultura.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tituloTop{
+    font-size: 20px;
+}
+
+.subTop{
+    font-size: 16px;
+    width: 78%;
+}
+
+
+
 
