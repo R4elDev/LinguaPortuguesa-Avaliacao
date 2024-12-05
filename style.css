@@ -449,10 +449,9 @@ header.rolagem #logotipo {
     width: 50%;
 }
 
-#parte2Img{
+#parte2Img img{
     width: 700px;
     height: 634px;
-    background-image: url('./img/aLinguagemDoFuturo.png');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -747,4 +746,51 @@ header.rolagem #logotipo {
 
 .subTop{
     font-size: 15px;
+}
+
+/*******************************************************************************
+********************************************************************************/
+
+#texto1Prog{
+    font-size: 15px;
+    width:210px;
+    margin-left: -150px;
+}
+
+#texto2Prog{
+    font-size: 15px;
+    width: 300px;
+    margin-left: 60px;
+    margin-top: -30px;
+}
+
+#subProg {
+    font-size: 15px;
+    width: 400px;
+    height: 400px;
+    margin-left: -100px;
+    margin-top: 30px;
+}
+
+#contTitulosProg{
+    width: 350px;
+    height: 350px;
+    margin-top: -300px;
+    margin-left:200px;
+
+}
+
+#parte2Img img{
+    width: 450px;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    margin-left: -350px;
+
+}
+
+
+
+#parte2{
+    margin-top: 700px
 }
