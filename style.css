@@ -336,13 +336,12 @@ header.rolagem #logotipo {
 
 
 
-#containerImpFoto {
+#containerImpFoto img {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 567px;
     height: 616px;
-    background-image: url('./img/criancaCompleto.png');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -700,6 +699,7 @@ header.rolagem #logotipo {
     
 }
 
+
 .tituloFoto h1{
     margin-top: 30px;
     font-size: 18px;
@@ -712,4 +712,39 @@ header.rolagem #logotipo {
 
 /*========================================================================*/
     
+#containerImpFoto img{
+    width: 350px;
+    height: 350px;
+    align-items: center;
+    display: flex;
+    
+}
+
+#containerImpFoto{
+    margin-top:-500px;
+    display: flex;
+    align-items:center ;
+}
+
+#containerImpor{
+    width: 500px;
+    height: 600px;
+    margin-top: 500px;
+    margin-left: -400px;
+}
+
+#texto1{
+    font-size: 20px;
+}
+
+#texto2{
+    font-size: 20px;
+}
+
+.tituloTop{
+    font-size: 15px;
+}
+
+.subTop{
+    font-size: 15px;
 }
